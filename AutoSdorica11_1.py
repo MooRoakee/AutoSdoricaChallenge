@@ -1,7 +1,7 @@
 '''
 Author: MulaRoakee
 Date: 2020-08-04 06:23:05
-LastEditTime: 2020-08-04 10:28:39
+LastEditTime: 2020-08-04 10:35:35
 LastEditors: MulaRoakee
 Description: 自动刷魂能脚本儿 硬要求高 自娱自乐型 泛用性差
 '''
@@ -66,6 +66,8 @@ def find_and_click(image):
             au.click(x,y)
             print("click {0} {1}".format(x,y))
             show_count_down(5)
+        except:
+            pass
         finally:
             try:
                 x, y = au.locateCenterOnScreen(image,confidence=0.9)
