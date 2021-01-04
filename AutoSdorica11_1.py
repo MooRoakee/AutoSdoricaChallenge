@@ -9,8 +9,6 @@ Description: 自动刷魂能脚本儿 硬要求高 自娱自乐型 泛用性差
 import pyautogui as au
 import time
 
-# FIXME: 自动识别闪退重开游戏（23333
-
 active_reward = 'active_reward.png'
 fight = 'fight.png'
 arrow1 = 'arrow1.png'
